@@ -20,14 +20,14 @@ from userbot.utils import edit_delete, edit_or_reply
 
 DEF_UNAPPROVED_MSG = (
     "╔═══════════════════╗\n"
-    "  🐟 INI BOT SEPTIONE 🐟\n
-    "╚═══════════════════╝\n
-    "• Kalo Ga Penting Ga Usah Chat Bego\n
-    "• Jangan Spam Anjing\n
-    "• Kalo Ga Dibales Ya Sabar Tolol\n
-    "╔════════════════════╗\n
-    " 𝗣𝗲𝘀𝗮𝗻 𝗢𝘁𝗼𝗺𝗮𝘁𝗶𝘀 𝗕𝘆 - SEPTIONE\n
-    "╚════════════════════╝\n
+    "  🐟 INI BOT SEPTIONE 🐟\n"
+    "╚═══════════════════╝\n"
+    "• Kalo Ga Penting Ga Usah Chat Bego\n"
+    "• Jangan Spam Anjing\n"
+    "• Kalo Ga Dibales Ya Sabar Tolol\n"
+    "╔════════════════════╗\n"
+    " 𝗣𝗲𝘀𝗮𝗻 𝗢𝘁𝗼𝗺𝗮𝘁𝗶𝘀 𝗕𝘆 - SEPTIONE\n"
+    "╚════════════════════╝\n"
 )
 
 
