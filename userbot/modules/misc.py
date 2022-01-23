@@ -119,7 +119,7 @@ async def repeat(event):
 async def repo_is_here(event):
     xx = await edit_or_reply(event, "`Processing...`")
     await xx.edit(
-        f"​╰⎆Halo Saya Adalah Septione-Userbot⚡\n"
+        f"​╰⎆Halo ini Septione-Userbot⚡\n"
                    f"❏Owner​    ⎆ Septione🐟\n"
                    f"❏Channel ⎆ [Si Brengsek](t.me/MaapSayaBrengsek)\n"
                    f"❏Group    ⎆ [Cari Kawan](t.me/ckbersama)\n"
