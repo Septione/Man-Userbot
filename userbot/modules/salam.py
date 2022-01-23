@@ -7,24 +7,24 @@ from userbot.utils import edit_or_reply, man_cmd
 
 @man_cmd(pattern="p(?: |$)(.*)")
 async def _(event):
-    await edit_or_reply(event, "**Assalamualaikum Dulu Biar Sopan**")
+    await edit_or_reply(event, "**Assalamualaikum Dulu Bangsat**")
 
 
-@man_cmd(pattern="pe(?: |$)(.*)")
+@man_cmd(pattern="acu(?: |$)(.*)")
 async def _(event):
-    await edit_or_reply(event, "**Assalamualaikum Warahmatullahi Wabarakatuh**")
+    await edit_or_reply(event, "**ACU ACU**")
 
 
-@man_cmd(pattern="P(?: |$)(.*)")
+@man_cmd(pattern="cyg(?: |$)(.*)")
 async def _(event):
-    xx = await edit_or_reply(event, f"**Haii Salken Saya {owner}**")
+    xx = await edit_or_reply(event, f"**Minot🐻 cyg mana ya**")
     sleep(2)
-    await xx.edit("**Assalamualaikum...**")
+    await xx.edit("**Apa cyg😱**")
 
 
 @man_cmd(pattern="l(?: |$)(.*)")
 async def _(event):
-    await edit_or_reply(event, "**Wa'alaikumsalam**")
+    await edit_or_reply(event, "**Wa'alaikumsalam Bangsat**")
 
 
 @man_cmd(pattern="a(?: |$)(.*)")
@@ -34,18 +34,18 @@ async def _(event):
     await xx.edit("**Assalamualaikum**")
 
 
-@man_cmd(pattern="j(?: |$)(.*)")
+@man_cmd(pattern="bgst(?: |$)(.*)")
 async def _(event):
-    xx = await edit_or_reply(event, "**JAKA SEMBUNG BAWA GOLOK**")
+    xx = await edit_or_reply(event, "**KALO BISA BANYAK**")
     sleep(3)
-    await xx.edit("**NIMBRUNG GOBLOKK!!!🔥**")
+    await xx.edit("**KENAPA HARUS SATU 🐟**")
 
 
 @man_cmd(pattern="k(?: |$)(.*)")
 async def _(event):
-    xx = await edit_or_reply(event, f"**Hallo KIMAAKK SAYA {owner}**")
+    xx = await edit_or_reply(event, f"**Hallo BANGSAT GW {owner}**")
     sleep(2)
-    await xx.edit("**LU SEMUA NGENTOT 🔥**")
+    await xx.edit("**LU SEMUA ASU 🔥**")
 
 
 @man_cmd(pattern="ass(?: |$)(.*)")
