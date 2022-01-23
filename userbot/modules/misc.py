@@ -119,13 +119,10 @@ async def repeat(event):
 async def repo_is_here(event):
     xx = await edit_or_reply(event, "`Processing...`")
     await xx.edit(
-        f"**Hey**, __I am using__ 🔥 **Man-Userbot** 🔥\n\n"
-        f"      __Thanks For Using me__\n\n"
-        f"✣ **Userbot Version :** `{BOT_VER}@{branch}`\n"
-        f"✣ **Group Support :** [Sharing Userbot](t.me/sharinguserbot)\n"
-        f"✣ **Channel Man :** [Lunatic0de](t.me/Lunatic0de)\n"
-        f"✣ **Owner Repo :** [Risman](t.me/mrismanaziz)\n"
-        f"✣ **Repo :** [Man-Userbot](https://github.com/mrismanaziz/Man-Userbot)\n"
+        f"​╰⎆Halo Saya Adalah Septione-Userbot⚡\n"
+                   f"❏Owner​    ⎆ Septione🐟\n"
+                   f"❏Channel ⎆ [Si Brengsek](t.me/MaapSayaBrengsek)\n"
+                   f"❏Group    ⎆ [Cari Kawan](t.me/ckbersama)\n"
     )
 
 
