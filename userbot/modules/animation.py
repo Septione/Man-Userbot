@@ -15,43 +15,43 @@ async def _(event):
 
     input_str = event.pattern_match.group(1)
 
-    if input_str == "bulan":
+    if input_str == "bear":
 
         await event.edit(input_str)
 
         animation_chars = [
-            "🌗",
-            "🌘",
-            "🌑",
-            "🌒",
-            "🌓",
-            "🌔",
-            "🌕",
-            "🌖",
-            "🌗",
-            "🌘",
-            "🌑",
-            "🌒",
-            "🌓",
-            "🌔",
-            "🌕",
-            "🌖",
-            "🌗",
-            "🌘",
-            "🌑",
-            "🌒",
-            "🌓",
-            "🌔",
-            "🌕",
-            "🌖",
-            "🌗",
-            "🌘",
-            "🌑",
-            "🌒",
-            "🌓",
-            "🌔",
-            "🌕",
-            "🌖",
+            "🐟",
+            "🐻",
+            "🐟",
+            "🐻",
+            "🐟",
+            "🐻",
+            "🥰",
+            "😍",
+            "😘",
+            "🥰",
+            "😍",
+            "😘",
+            "🐟",
+            "🐻",
+            "🐟",
+            "🐻",
+            "🐟",
+            "🐻",
+            "❤️",
+            "🧡",
+            "💛",
+            "💚",
+            "💙",
+            "💜",
+            "🤎",
+            "🖤",
+            "🤍",
+            "🐟",
+            "🐻",
+            "🐟",
+            "🐻",
+            "💞",
         ]
 
         animation_interval = 0.1
@@ -67,30 +67,30 @@ async def _(event):
 
 @bot.on(man_cmd(outgoing=True, pattern=r"sayang$"))
 async def _(e):
-    await e.edit("I LOVEE YOUUU 💕")
+    await e.edit("I LOVEE YOUUU MINOT 💕")
     await e.edit("💝💘💓💗")
     await e.edit("💞💕💗💘")
     await e.edit("💝💘💓💗")
     await e.edit("💞💕💗💘")
     await e.edit("💘💞💗💕")
     await e.edit("💘💞💕💗")
-    await e.edit("SAYANG KAMU 💝💖💘")
+    await e.edit("SAYANG MINOT 💝💖💘")
     await e.edit("💝💘💓💗")
     await e.edit("💞💕💗💘")
     await e.edit("💘💞💕💗")
     await e.edit("SAYANG")
-    await e.edit("KAMU")
-    await e.edit("SELAMANYA 💕")
+    await e.edit("MINOT")
+    await e.edit("CANTIK 💕")
     await e.edit("💘💘💘💘")
     await e.edit("SAYANG")
-    await e.edit("KAMU")
-    await e.edit("SAYANG")
-    await e.edit("KAMU")
+    await e.edit("MINOT")
+    await e.edit("BOCIL")
+    await e.edit("EMOY")
     await e.edit("I LOVE YOUUUU")
-    await e.edit("MY BABY")
+    await e.edit("MY BABYBEAR")
     await e.edit("💕💞💘💝")
     await e.edit("💘💕💞💝")
-    await e.edit("SAYANG KAMU💞")
+    await e.edit("SAYANG MINOT💞")
 
 
 @bot.on(man_cmd(outgoing=True, pattern=r"dino(?: |$)(.*)"))
