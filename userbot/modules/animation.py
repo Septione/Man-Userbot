@@ -15,16 +15,43 @@ async def _(event):
 
     input_str = event.pattern_match.group(1)
 
-    if input_str == "bear":
+    if input_str == "bulan":
 
         await event.edit(input_str)
 
         animation_chars = [
-            "🐟",
-            "🐻",
-            "🐟",
-            "🐻",
-            "🐟",
+            "🌗",
+            "🌘",
+            "🌑",
+            "🌒",
+            "🌓",
+            "🌔",
+            "🌕",
+            "🌖",
+            "🌗",
+            "🌘",
+            "🌑",
+            "🌒",
+            "🌓",
+            "🌔",
+            "🌕",
+            "🌖",
+            "🌗",
+            "🌘",
+            "🌑",
+            "🌒",
+            "🌓",
+            "🌔",
+            "🌕",
+            "🌖",
+            "🌗",
+            "🌘",
+            "🌑",
+            "🌒",
+            "🌓",
+            "🌔",
+            "🌕",
+            "🌖",
         ]
 
         animation_interval = 0.1
@@ -379,7 +406,7 @@ async def _(e):
     await e.edit("`GABUT`")
 
 
-@bot.on(man_cmd(outgoing=True, pattern=becanda(?: |$)(.*)"))
+@bot.on(man_cmd(outgoing=True, pattern=r"becanda(?: |$)(.*)"))
 async def _(typew):
     await typew.edit("`Sebenernya`")
     sleep(1)
