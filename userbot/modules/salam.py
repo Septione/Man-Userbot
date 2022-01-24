@@ -7,7 +7,7 @@ from userbot.utils import edit_or_reply, man_cmd
 
 @man_cmd(pattern="p(?: |$)(.*)")
 async def _(event):
-    await edit_or_reply(event, "**Assalamualaikum Dulu Bangsat**")
+    await edit_or_reply(event, "**Assalamualaikum Dulu Sayang**")
 
 
 @man_cmd(pattern="acu(?: |$)(.*)")
@@ -24,14 +24,14 @@ async def _(event):
 
 @man_cmd(pattern="l(?: |$)(.*)")
 async def _(event):
-    await edit_or_reply(event, "**Wa'alaikumsalam Bangsat**")
+    await edit_or_reply(event, "**Wa'alaikumsalam Sayang**")
 
 
-@man_cmd(pattern="a(?: |$)(.*)")
+@man_cmd(pattern="maap(?: |$)(.*)")
 async def _(event):
-    xx = await edit_or_reply(event, f"**Haii Salken Saya {owner}**")
+    xx = await edit_or_reply(event, f"**Maap Yah**")
     sleep(2)
-    await xx.edit("**Assalamualaikum**")
+    await xx.edit("**Tapi Boong 😛**")
 
 
 @man_cmd(pattern="bgst(?: |$)(.*)")
@@ -43,16 +43,16 @@ async def _(event):
 
 @man_cmd(pattern="k(?: |$)(.*)")
 async def _(event):
-    xx = await edit_or_reply(event, f"**Hallo BANGSAT GW {owner}**")
+    xx = await edit_or_reply(event, f"**Haii Salken Gw {owner}**")
     sleep(2)
-    await xx.edit("**LU SEMUA ASU 🔥**")
+    await xx.edit("**LU SEMUA BAU 🐟**")
 
 
-@man_cmd(pattern="ass(?: |$)(.*)")
+@man_cmd(pattern="gtw(?: |$)(.*)")
 async def _(event):
-    xx = await edit_or_reply(event, "**Salam Dulu Biar Sopan**")
+    xx = await edit_or_reply(event, "**Mana Saya Tau**")
     sleep(2)
-    await xx.edit("**السَّلاَمُ عَلَيْكُمْ وَرَحْمَةُ اللهِ وَبَرَكَاتُهُ**")
+    await xx.edit("**Saya Kan Cuma Ikan🐟**")
 
 
 CMD_HELP.update(
