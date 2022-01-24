@@ -26,32 +26,12 @@ async def _(event):
             "🐻",
             "🐟",
             "🐻",
-            "🥰",
-            "😍",
-            "😘",
-            "🥰",
-            "😍",
-            "😘",
-            "🐟",
-            "🐻",
-            "🐟",
-            "🐻",
-            "🐟",
-            "🐻",
-            "❤️",
-            "🧡",
-            "💛",
-            "💚",
-            "💙",
-            "💜",
-            "🤎",
-            "🖤",
-            "🤍",
-            "🐟",
-            "🐻",
-            "🐟",
-            "🐻",
-            "💞",
+            "🥰🥰",
+            "😍😍",
+            "😘😘",
+            "🥰🥰",
+            "😍😍",
+            "😘😘",
         ]
 
         animation_interval = 0.1
@@ -65,7 +45,7 @@ async def _(event):
             await event.edit(animation_chars[i % 32])
 
 
-@bot.on(man_cmd(outgoing=True, pattern=r"sayang$"))
+@bot.on(man_cmd(outgoing=True, pattern=r"minot$"))
 async def _(e):
     await e.edit("I LOVEE YOUUU MINOT 💕")
     await e.edit("💝💘💓💗")
@@ -406,19 +386,19 @@ async def _(e):
     await e.edit("`GABUT`")
 
 
-@bot.on(man_cmd(outgoing=True, pattern=r"terkadang(?: |$)(.*)"))
+@bot.on(man_cmd(outgoing=True, pattern=becanda(?: |$)(.*)"))
 async def _(typew):
-    await typew.edit("`Terkadang`")
+    await typew.edit("`Sebenernya`")
     sleep(1)
-    await typew.edit("`Mencintai Seseorang`")
+    await typew.edit("`Gua Cuma Lg Cosplay`")
     sleep(1)
-    await typew.edit("`Hanya Akan Membuang Waktumu`")
+    await typew.edit("`Jadi Orang Brengsek`")
     sleep(1)
-    await typew.edit("`Ketika Waktumu Habis`")
+    await typew.edit("`Tapi Kenapa`")
     sleep(1)
-    await typew.edit("`Tambah Aja 5000`")
+    await typew.edit("`Malah Di Kira Beneran Brengsek`")
     sleep(1)
-    await typew.edit("`Bercanda`")
+    await typew.edit("`Kan Acu😭`")
 
 
 # Create by myself @localheart
@@ -467,10 +447,10 @@ async def _(event):
             await event.edit(animation_chars[i % 11])
 
 
-@bot.on(man_cmd(outgoing=True, pattern=r"gombal(?: |$)(.*)"))
+@bot.on(man_cmd(outgoing=True, pattern=r"mira(?: |$)(.*)"))
 async def _(typew):
     sleep(1)
-    await typew.edit("`Hai, I LOVE YOU 💞`")
+    await typew.edit("`Hai, I LOVE YOU MIRA 💞`")
     sleep(1)
     await typew.edit("`I LOVE YOU SO MUCH!`")
     sleep(1)
@@ -478,17 +458,17 @@ async def _(typew):
     sleep(1)
     await typew.edit("`I WANT TO BE YOUR BOYFRIEND!`")
     sleep(1)
-    await typew.edit("`I LOVEE YOUUUU💕💗`")
+    await typew.edit("`I LOVEE YOUUUU MIRA💕💗`")
     sleep(1)
-    await typew.edit("`I LOVEE YOUUUU💗💞`")
+    await typew.edit("`I LOVEE YOUUUU MIRA💗💞`")
     sleep(1)
-    await typew.edit("`I LOVEE YOUUUU💝💗`")
+    await typew.edit("`I LOVEE YOUUUU MIRA💝💗`")
     sleep(1)
-    await typew.edit("`I LOVEE YOUUUU💟💖`")
+    await typew.edit("`I LOVEE YOUUUU MIRA💟💖`")
     sleep(1)
-    await typew.edit("`I LOVEE YOUUUU💘💓`")
+    await typew.edit("`I LOVEE YOUUUU MIRA💘💓`")
     sleep(1)
-    await typew.edit("`Tapi Bo'ong`")
+    await typew.edit("`MESKIPUN LU PACAR ORANG😭`")
 
 
 # Create by myself @localheart
