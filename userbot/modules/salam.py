@@ -15,6 +15,21 @@ async def _(event):
     await edit_or_reply(event, "**ACU ACU**")
 
 
+@man_cmd(pattern="test(?: |$)(.*)")
+async def _(event):
+    await edit_or_reply(event, "**TEST TEST 1.. 2.. 3..**")
+
+
+@man_cmd(pattern="plosok(?: |$)(.*)")
+async def _(event):
+    await edit_or_reply(event, "**PLOSOK DELAY TEROOOSS**")
+
+
+@man_cmd(pattern="bau(?: |$)(.*)")
+async def _(event):
+    await edit_or_reply(event, "**BAUUUUUUUUUUU MANDI DLU SANA**")
+
+
 @man_cmd(pattern="cyg(?: |$)(.*)")
 async def _(event):
     xx = await edit_or_reply(event, f"**Minot🐻 cyg mana ya**")
