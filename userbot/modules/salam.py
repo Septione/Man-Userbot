@@ -25,9 +25,9 @@ async def _(event):
     await edit_or_reply(event, "**PLOSOK DELAY TEROOOSS**")
 
 
-@man_cmd(pattern="delay(?: |$)(.*)")
+@man_cmd(pattern="ck(?: |$)(.*)")
 async def _(event):
-    await edit_or_reply(event, "**EH GOBLOK KALO DELAY JGN BUKA TELE**")
+    await edit_or_reply(event, "**CEWEK CEWEK DI CK PACAR GW SEMUA🐟**")
 
 @man_cmd(pattern="bau(?: |$)(.*)")
 async def _(event):
