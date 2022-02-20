@@ -25,6 +25,11 @@ async def _(event):
     await edit_or_reply(event, "**PLOSOK DELAY TEROOOSS**")
 
 
+@man_cmd(pattern="hw(?: |$)(.*)")
+async def _(event):
+    await edit_or_reply(event, "**HUUUUWWWWAAAAAA😩**")
+
+
 @man_cmd(pattern="ck(?: |$)(.*)")
 async def _(event):
     await edit_or_reply(event, "**CEWEK CEWEK DI CK PACAR GW SEMUA🐟**")
@@ -39,6 +44,13 @@ async def _(event):
     xx = await edit_or_reply(event, f"**Minot🐻 cyg mana ya**")
     sleep(2)
     await xx.edit("**Apa cyg😱**")
+
+
+@man_cmd(pattern="nyimak(?: |$)(.*)")
+async def _(event):
+    xx = await edit_or_reply(event, f"**MASIH GW PANTAU**")
+    sleep(2)
+    await xx.edit("**GW CMA NYIMAK**")
 
 
 @man_cmd(pattern="l(?: |$)(.*)")
