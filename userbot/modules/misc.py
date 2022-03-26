@@ -122,7 +122,7 @@ async def repo_is_here(event):
         f"​╰⎆Halo ini Septione-Userbot⚡\n"
                    f"❏Owner​    ⎆ Septione🐟\n"
                    f"❏Channel ⎆ [Si Brengsek](t.me/MaapSayaBrengsek)\n"
-                   f"❏Group    ⎆ [Cari Kawan](t.me/+cLXI-JMA7fwxOTQ1)\n"
+                   f"❏Group    ⎆ [Cari Kawan](https://t.me/+cLXI-JMA7fwxOTQ1)\n"
     )
 
 
